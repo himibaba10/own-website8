@@ -1,0 +1,88 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --brand-color-orange: rgb(245, 138, 7);
+  --brand-color-orange-10: rgba(245, 138, 7, 0.1);
+  --light-blue: rgb(220, 234, 245);
+  --lighter-blue: rgb(237, 247, 255);
+  --text: #1d3444;
+  --text-darker: #0d1317;
+  --grey: #5b5b5b;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  z-index: 0;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 130%;
+}
+
+h1 {
+  letter-spacing: -3px;
+}
+
+h2 {
+  letter-spacing: -1px;
+}
+
+h3 {
+  letter-spacing: -1px;
+}
+
+p,
+span,
+a {
+  font-weight: 500;
+  line-height: 170%;
+}
+
+img {
+  pointer-events: none;
+}
+
+/* Section */
+.section {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 50px;
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 0 10px;
+  }
+}

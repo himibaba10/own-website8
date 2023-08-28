@@ -1,0 +1,21 @@
+.margin-bottom {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 1280px) {
+  .margin-bottom {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .margin-bottom {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 478px) {
+  .margin-bottom {
+    margin-bottom: 30px;
+  }
+}
